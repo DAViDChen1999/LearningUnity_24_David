@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0bcf2222e144e198d7fabd08c72da84, type: 3}
+  m_Name: InstancePainterEditorConfig
+  m_EditorClassIdentifier: 
+  explicitRendererObject: {fileID: 0}
+  enabled: 0
+  _paintToolConfig:
+    brushSize: 1
+    alpha: 1
+    density: 1
+    minimumDistance: 0
+    interpolatePosition: 0
+    useDirection: 0
+  _eraseToolConfig:
+    brushSize: 1
+  _modifyToolConfig:
+    brushSize: 1
+    useRaycasting: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
+    falloff: 1
+  _rectToolConfig:
+    alpha: 1
+    density: 1
+  _curveToolConfig:
+    curve:
+      points: []
+      segments: 100
+      distributionType: 0
+      up: {x: 0, y: 1, z: 0}
+      mirrorControlPoints: 1
+    hSectionMinimized: 0
+    hCount: 1
+    useHNoise: 0
+    hNoiseScale: 1
+    hOffset: {x: 0, y: 0, z: 0}
+    hCurveOffset: 0
+    interlaceHCurveOffset: 0
+    vSectionMinimized: 0
+    vCount: 1
+    useVNoise: 0
+    vNoiseScale: 1
+    vOffset: {x: 0, y: 0, z: 0}
+    centerizeVOffset: 0
+    usePerpedicularVOffset: 0
+    vCurveOffset: 0
+    interlaceVCurveOffset: 0
+  minimizePaintDefinitions: 0
+  minimizeSettings: 0
+  paintDefinitions: []
+  eraseActiveDefinition: 1
+  modifyPosition: {x: 0, y: 0, z: 0}
+  modifyScale: {x: 1, y: 1, z: 1}
+  useMeshRaycasting: 0
+  raycastInactive: 1
+  showTooltips: 1
+  includeLayers: []
+  excludeLayers: []
+  enableExperimental: 0
+  gameObjectNameSeparator: 
